@@ -1,2 +1,2 @@
 # UARTDesign
-This is an UART designed in SystemVerilog.
+This is an UART(universal asynchronous receiver/ transmitter) designed in SystemVerilog. 
