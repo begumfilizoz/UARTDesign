@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Dec 11 01:51:34 2023
+# Process ID: 5748
+# Current directory: C:/Users/oegec/Documents/Desktop/cs223project_begum
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9596 C:\Users\oegec\Documents\Desktop\cs223project_begum\cs223project_begum.xpr
+# Log file: C:/Users/oegec/Documents/Desktop/cs223project_begum/vivado.log
+# Journal file: C:/Users/oegec/Documents/Desktop/cs223project_begum\vivado.jou
+# Running On: Biber, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 16773 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/oegec/Documents/Desktop/cs223project_begum/cs223project_begum.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top stage2 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top stage1 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top stage4 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top stage3_transmitter [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top stage4 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
